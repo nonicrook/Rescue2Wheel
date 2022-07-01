@@ -44,6 +44,7 @@ public class Tow {
   public void setDropOffDateTime(String dropOffDateTime) {this.dropOffDateTime = dropOffDateTime;}
   public void setPrice(double price) {this.price = price;}
   
+// Methods
   public String toString() {
     return  "\n--------------------------------------------------------------" +
             "\n Towing Order " + 
