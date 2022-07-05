@@ -5,8 +5,8 @@ public class Dispatch {
   private int dispatchId
   private LocalDateTime startDateTime
   private LocalDateTime endDateTime
-  private String startAddress
-  private String endAddress
+  private String pickUpAddress
+  private String dropOffAddress
   private String towOperator
   
   // Constructor
