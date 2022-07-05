@@ -5,12 +5,16 @@ public class Customer {
     private int customerId;
     private String customerName;
     private String address;
+    private String emailAddress;
+    private String phoneNumber;
 
     //  Constructor
-    public Customer(int customerId, String customerName, String address) {
+    public Customer(int customerId, String customerName, String address, String emailAddress, String phoneNumber) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.address = address;
+        this.emailAddress = emailAddress;
+        this.phoneNumber = phoneNumber;
     }
 
     // Getters and Setters
@@ -18,7 +22,7 @@ public class Customer {
 
     // Methods
     public String getCustomerName (String firstName, String lastName) {
-        String customerName = firstName + LastName;
+        customerName = firstName + LastName;
         return customerName;
   }
 }
