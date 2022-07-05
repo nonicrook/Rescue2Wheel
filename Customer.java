@@ -3,18 +3,22 @@ public class Customer {
 
     // Instance Variables
     private int customerId;
-    private String fullName;
+    private String customerName;
     private String address;
 
     //  Constructor
-    public Customer(int customerId, String fullName, String address) {
+    public Customer(int customerId, String customerName, String address) {
         this.customerId = customerId;
-        this.fullName = fullName;
+        this.customerName = customerName;
         this.address = address;
     }
 
     // Getters and Setters
     
 
-
+    // Methods
+    public String getCustomerName (String firstName, String lastName) {
+        String customerName = firstName + LastName;
+        return customerName;
+  }
 }
