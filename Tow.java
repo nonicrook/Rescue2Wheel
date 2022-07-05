@@ -60,10 +60,6 @@ public class Tow {
             "\n Logo: " + logo;
   }
   
-  public String getCustomerName (String firstName, String lastName) {
-    String customerName = firstName + LastName;
-    return customerName;
-  }
   
   
 }
