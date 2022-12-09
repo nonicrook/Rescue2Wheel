@@ -1,7 +1,9 @@
 - 👋 Hi, I’m @nonicrook
-- 👀 I’m interested in becoming a tech professional in software development or data science.
-- 🌱 I’m currently learning fullstack Java at Tech Elevator's Java Bootcamp. 
-- My new skills include: Java, SQL, APIs/Web APIs, JUnit Testing, IntelliJ, Spring framework and GitLab.
+- 👀 I am a career changer who left the legal field and entered the world of tech at the age of 50!
+- 🌱 I’m currently a Junior Engineer with an amazing small company doing big things for little people.
+- My skills include Java, SQL, APIs/Web APIs, JUnit Testing, Spring framework and some Vue.js.
+- My toolkit includes IntelliJ, VS Code and PGAdmin.
+- Since getting hired, I'm learning Git branching and Docker along with a deeper understanding of VS Code and GitLab.
 
 <!---
 nonicrook/nonicrook is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
