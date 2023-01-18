@@ -1,10 +1,11 @@
-//Motorcycle Towing App - Customer
+// Model -  Customer Class
 public class Customer {
   
-  long custId;
-  String fullName;
-  String email;
-  String phone;
+  // Instance variables
+  private long custId;
+  private String fullName;
+  private String email;
+  private String phone;
   
   public Customer(long custId, String fullName, String email, String phone) {
     this.custId = custId;
