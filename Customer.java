@@ -4,15 +4,15 @@ public class Customer {
     // Instance Variables
     private int customerId;
     private String name;
-    private String emailAddress;
-    private String phoneNumber;
+    private String email;
+    private String phone;
 
     //  Constructor
-    public Customer(int customerId, String name, String emailAddress, String phoneNumber) {
+    public Customer(int customerId, String name, String email, String phone) {
         this.customerId = customerId;
         this.name = name;
-        this.emailAddress = emailAddress;
-        this.phoneNumber = phoneNumber;
+        this.emailAddress = email;
+        this.phoneNumber = phone;
     }
 
     // Getters and Setters
