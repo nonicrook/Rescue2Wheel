@@ -1,5 +1,5 @@
-// Motorcycle Towing App
-public class Tow {
+// Tow Class
+public class Tow extends Customer {
   
   // Instance Variables
   private int towId;
@@ -27,7 +27,7 @@ public class Tow {
   
   // Getters and Setters
   public int getTowId() {return towId;}
-  public String getCustomerName() {return customerName;}
+  // public String getCustomerName() {return customerName;}
   public String getPickUpAddress() {return pickUpAddress;}
   public String getDropOffAddress() {return dropOffAddress;}
   public int getDistance() {return distance;}
@@ -59,7 +59,10 @@ public class Tow {
             "\n Price: " + price + 
             "\n Logo: " + logo;
   }
-  
+
+  public String getCustomerName() {
+    return getCustomerName.getName();
+  }
   
   
 }
