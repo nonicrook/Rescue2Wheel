@@ -1,4 +1,4 @@
-// Tow Class
+//Motorcycle Towing App - Tow
 public class Tow extends Customer {
   
   // Instance Variables
