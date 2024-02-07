@@ -1,4 +1,6 @@
-//Motorcycle Towing App - Customer
+import java.util.*;
+import java.util.Scanner;
+
 public class Customer {
 
     // Instance Variables

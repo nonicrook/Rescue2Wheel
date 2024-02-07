@@ -1,4 +1,6 @@
-// Motorcycle Towing Application
+import java.util.*;
+import java.util.Scanner;
+
 public class Dispatch {
 
   // Instance Variables

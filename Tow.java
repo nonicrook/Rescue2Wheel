@@ -1,4 +1,6 @@
-//Motorcycle Towing App - Tow
+import java.util.*;
+import java.util.Scanner;
+
 public class Tow extends Customer {
   
   // Instance Variables
@@ -13,7 +15,7 @@ public class Tow extends Customer {
   private String logo;
   
   // Constructor
-  public Tow(int towId, String fullName, String pickUpAddress, String dropOffAddress, int distance, String pickUpDateTime, String dropOffDateTime, double price) {
+  public Tow(int towId, String customerName, String pickUpAddress, String dropOffAddress, int distance, String pickUpDateTime, String dropOffDateTime, double price) {
     this.towId = towId;
     this.customerName = customerName;
     this.pickUpAddress = pickUpAddress;
@@ -61,7 +63,7 @@ public class Tow extends Customer {
   }
 
   public String getCustomerName() {
-    return getCustomerName.getName();
+    return customerName.getName();
   }
   
   
